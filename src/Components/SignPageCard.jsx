@@ -1,4 +1,5 @@
 import { Sparkles } from "lucide-react"
+import Logo from "./Logo"
 
 function SignPageCard(){
   return (
@@ -6,16 +7,7 @@ function SignPageCard(){
       
       <div className="mx-auto flex min-h-screen flex-col px-14 py-16">
 
-        <div className="flex items-center gap-4">
-          <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/20">
-
-            <Sparkles size={25}  />
-          </div>
-
-          <h1 className="text-2xl font-bold tracking-tight">
-            TrackerAI
-          </h1>
-        </div>
+        <Logo className="bg-white/30" />
 
 
       
