@@ -5,16 +5,15 @@ import Button from './Components/Button'
 import SignPageCard from './Components/SignPageCard'
 import LoginPage from './Pages/LoginPage'
 import SignUpPage from './Pages/SignUpPage'
+import Card from './Components/card'
 
 function App() {
 
 
   return (
     <main>
-      {/*<Input label="your name" placeholder="write your name here" />
-      <Button children="Continue With Google" className="bg-gray-50/80  border-gray-200 " />
-        */}
-        <SignUpPage />
+     
+      <Card label="Applications" children="10" />
       </main>
   )
 }

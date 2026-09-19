@@ -54,7 +54,7 @@ function SignUpForm(){
             type="submit"
             className="bg-indigo-500 mx-auto w-full mt-3 text-white hover:bg-indigo-600 active:scale-98"
             >
-                {isSubmitting ? "Signing up ..." : "Sign up"}
+                {isSubmitting ? "Creating Account..." : "Create Account"}
                 </Button>
             {success && (
             <p className='text-green-600 text-sm mb-3 bg-green-50 border border-green-100 rounded-lg px-4 py-3'>
